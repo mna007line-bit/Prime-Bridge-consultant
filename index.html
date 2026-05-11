@@ -3,13 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Bridge Consultant - Visa & Immigration Services</title>
+    <title>Prime Bridge Consultant - Travel Agents & Tour Operators</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #ffffff; }
-        .header { background: #22c55e; padding: 18px 0; box-shadow: 0 2px 15px rgba(34,197,94,0.3); border-bottom: 3px solid #d4af37; }
+        .header { background: #22c55e; padding: 18px 0; box-shadow: 0 2px 15px rgba(34,197,94,0.3); border-bottom: 3px solid #16a34a; }
         .nav { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 0 20px; }
         .logo { height: 75px; margin-right: 15px; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2)); }
         .brand { color: #ffffff; font-size: 26px; font-weight: bold; text-shadow: 0 2px 4px rgba(0,0,0,0.2); }
         .hero { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #eff6ff 100%); color: #0a1029; padding: 90px 20px; text-align: center; }
-        .hero h1 { font-size:
+        .hero h1 { font-size: 48px; margin-bottom: 20px; font-weight: 800; }
+        .hero p { font-size: 20px; margin-bottom: 35px; max-width: 700px; margin-left: auto; margin-right: auto; color: #334155; }
+        .btn { display: inline-block; padding: 16px 35px; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; transition: 0.3s; margin: 5px; }
+        .btn:hover { background: #1da851; transform: translateY(-2px); }
+        .about { padding: 80px 20px; background: #f8fafc; }
+        .about-box { background: white; padding: 50px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); border-left: 5px solid #22c55e; }
+        .about h2 { font-size: 36px; margin-bottom: 25px; color: #0a1029; font-weight: 800; }
+        .about p { color: #475569; line-height: 1.9; font-size: 17px; text-align: justify; }
+        .ceo { padding: 80px 20px; background: white; }
+        .ceo-box { max-width: 900px; margin: 0 auto; display: flex; align-items: center; gap: 50px; background: #f8fafc; padding: 50px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+        .ceo-img { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 5px solid #22c55e; box-shadow: 0 8px 20px rgba(34,197,94,0.3); }
+        .ceo-text h3 { font-size: 32px; margin-bottom: 10px; color: #0a1029; }
+        .ceo-text h4 { font-size: 20px; margin-bottom: 20px; color: #22c55e; font-weight: 600; }
+        .ceo-text p { color: #475569; line-height: 1.8; font-size: 17px; font-style: italic; }
+        .services { padding: 80px 20px; background: #f8fafc; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .section-title { text-align: center; font-size: 42px; margin-bottom: 60px; color: #0a1029; font-weight: 800; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 35px; }
+        .card { background: white; padding: 40px 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; transition: 0.3s; }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 15px 35px rgba(37,99,235,0.15); }
+        .card h3 { font-size: 24px; margin-bottom: 15px; color: #1e40af; }
+        .card p { color: #475569; line-height: 1.7; }
+        .contact { background: #0a1029; color: white; padding: 80px 20px; text-align: center; }
+        .contact h2 { font-size: 42px; margin-bottom: 20px; }
+        .contact p { font-size: 18px; margin-bottom: 15px; opacity: 0.9; }
+        .address { font-size: 20px; margin: 25px 0; line-height: 1.8; }
+        .footer { background: #020617; color: #94a3b8; text-align: center; padding: 25px; font-size: 14px; }
+        @media (max-width: 768px) { .hero h1 { font-size: 36px; } .nav { flex-direction: column; } .brand { margin-top: 10px; } .about-box { padding: 30px 20px; } .ceo-box { flex-direction: column; text-align: center; padding: 30px 20px; } .ceo-img { width: 200px; height: 200px; } }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="https://i.imgur.com/8YQZQZp.png" alt="Prime Bridge Logo" class="logo">
+            <div class="brand">Prime Bridge Consultant</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Your Trusted Travel & Immigration Partner</h1>
+        <p>Licensed Travel Agents, Tour Operators & Hajj Umrah Group Organizers providing complete travel solutions by Air, Sea & Land.</p>
+        <a href="#contact" class="btn">Contact Us Today</a>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-box">
+                <h2>About Prime Bridge Consultant</h2>
+                <p>The principal line of business of the company shall be to carry on business as travel agents and tour operators, hajj and umrah group organizers, transporters by sea, land or air and to facilitate traveling and to provide services to tourists and travelers by chartering or reserving steamships, cruise liners, ferries, trains, busses and aeroplanes for fixed periods or for particular journeys. We reserve sleeping cars or berths, motels, hotels, hostels, inns and resting rooms, and provide guides and baggage transport facilities. We carry on business as Travel Agents and Tour Operators and provide facilities in travelling and touring to travelers and tourists through tickets, e-tickets, circular tickets, sleeping cars or berths, reserved places, hotel and boarding, lodging accommodation and guides, enquiry bureau, libraries, resting rooms, baggage transport and otherwise. We also charter steamships and aeroplanes for fixed periods or for particular voyages and flights.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ceo">
+        <div class="container">
+            <h2 class="section-title">Message from CEO</h2>
+            <div class="ceo-box">
+                <img src="ceo.jpg" alt="Mian Nadeem CEO" class="ceo-img">
+                <div class="ceo-text">
+                    <h3>Mian Nadeem</h3>
+                    <h4>Chief Executive Officer</h4>
+                    <p>"Welcome to Prime Bridge Consultant. Our mission is to provide transparent, reliable and professional travel & visa services. With years of experience in Hajj Umrah operations and international travel, we ensure your journey is smooth, safe and memorable. Your trust is our greatest asset."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Core Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Hajj & Umrah Packages</h3>
+                    <p>Complete group organizing for Hajj and Umrah with visa processing, hotel booking, transport, and experienced guides. Premium and economy packages available.</p>
+                </div>
+                <div class="card">
+                    <h3>Visa & Immigration</h3>
+                    <p>Expert assistance for Study Visa, Work Permit, Tourist Visa and PR applications for Canada, UK, USA, Australia, Europe and Gulf countries.</p>
+                </div>
+                <div class="card">
+                    <h3>Air Ticketing</h3>
+                    <p>E-tickets, circular tickets and group bookings for all international airlines. Best rates for fixed periods or particular journeys worldwide.</p>
+                </div>
+                <div class="card">
+                    <h3>Hotel & Transport</h3>
+                    <p>Reservation of hotels, hostels, inns, resting rooms, sleeping cars, berths. Complete baggage transport and guide facilities for tourists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Head Office</h2>
+            <div class="address">
+                <strong>Prime Bridge Consultant</strong><br>
+                C 121, S Garden Phase 2<br>
+                Kala Shah Kaku, Lahore
+            </div>
+            <p>For bookings and free consultation</p>
+            <a href="https://wa.me/923304005040" class="btn">WhatsApp: 0330 4005040</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Prime Bridge Consultant. Licensed Travel Agents & Tour Operators | Kala Shah Kaku, Lahore</p>
+    </footer>
+</body>
+</html>
